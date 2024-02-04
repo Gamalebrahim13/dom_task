@@ -1,0 +1,33 @@
+.item-caption{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+}
+.item{
+    position: relative;
+}
+.lightbox-container{
+    position: fixed;
+    inset: 0px;
+    background-color: rgba(0, 0,0, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.lightbox-items{
+    width: 60%;
+    height: 600px;
+    background-image:url(img/images/portfolio-1.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#close{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
